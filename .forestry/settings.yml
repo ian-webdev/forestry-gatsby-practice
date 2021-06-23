@@ -8,7 +8,7 @@ sections:
   path: ''
   label: newsroom
   create: all
-  match: "**/src/content"
+  match: src/content
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
