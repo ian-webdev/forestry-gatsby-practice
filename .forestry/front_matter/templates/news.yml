@@ -18,3 +18,5 @@ fields:
       format: markdown
   label: text area
   description: 'input content '
+pages:
+- src/content/posts/new-test.md
