@@ -1,4 +1,10 @@
 ---
 label: test post
 hide_body: true
-fields: []
+fields:
+- name: text_filed
+  type: text
+  config:
+    required: false
+  label: text filed
+  description: asdfsdfd
