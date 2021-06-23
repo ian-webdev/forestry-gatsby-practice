@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: directory
   path: ''
-  label: label
+  label: newsroom
   create: all
   match: "**/src/content"
 upload_dir: uploads
