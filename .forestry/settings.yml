@@ -4,13 +4,8 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
-- type: directory
-  path: ''
-  label: newsroom
-  create: all
-  match: src/content
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: static/uploads
+public_path: "static/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
@@ -21,3 +16,12 @@ build:
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: npm run develop
+sections:
+  - type: directory
+    path: src/content/posts
+    label: News
+    create: documents
+    match: "**/*"
+    templates:
+      - news
+---

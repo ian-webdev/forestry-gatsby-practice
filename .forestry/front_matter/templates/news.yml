@@ -1,6 +1,6 @@
 ---
-label: base template
-hide_body: true
+label: news
+hide_body: false
 fields:
 - name: title
   type: text
