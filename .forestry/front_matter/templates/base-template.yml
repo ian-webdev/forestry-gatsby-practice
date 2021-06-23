@@ -20,3 +20,4 @@ fields:
   description: 'input content '
 pages:
 - test.md
+- test2.md
