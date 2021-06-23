@@ -18,5 +18,3 @@ fields:
       format: markdown
   label: text area
   description: 'input content '
-pages:
-- test2.md
