@@ -8,15 +8,46 @@ fields:
     required: false
   label: title
   description: input title
-- name: text_area
-  type: textarea
-  default: ''
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: image
+- name: category
+  type: select
+  default: []
   config:
     required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: text area
-  description: 'input content '
+    options:
+    - News
+    - MyOdyssey
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: category
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: menu
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - newsroom
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: menu
 pages:
 - src/content/posts/new-test.md
