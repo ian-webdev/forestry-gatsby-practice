@@ -19,5 +19,4 @@ fields:
   label: text area
   description: 'input content '
 pages:
-- test.md
 - test2.md
