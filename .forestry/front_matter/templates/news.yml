@@ -50,4 +50,5 @@ fields:
       path: 
   label: menu
 pages:
+- src/content/posts/3billion-aims-for-the-global-market-by-ipo.md
 - src/content/posts/new-test.md
