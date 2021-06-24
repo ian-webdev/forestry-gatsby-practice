@@ -30,14 +30,7 @@ const newsroom = (props) => {
             {props.data.allMarkdownRemark.nodes.map(node => (
               <div>
                 <div dangerouslySetInnerHTML={{ __html: node.html }}></div><br/>
-                <StaticImage
-                  src="../images/gatsby-astronaut.png"
-                  width={300}
-                  quality={95}
-                  formats={["AUTO", "WEBP", "AVIF"]}
-                  alt="A Gatsby astronaut"
-                  style={{ marginBottom: `1.45rem` }}
-                />
+                
               </div>
             ))}
             {/* <div dangerouslySetInnerHTML={{ __html: props.data.allMarkdownRemark.nodes[0].html }}></div> */}
