@@ -10,4 +10,4 @@ date: 2021-06-10T15:00:00Z
 
 fdsjfks
 
-!\[rtsdfsf\]()
+![rtsdfsf](static/uploads/2_schaaf-yang_2.png)
