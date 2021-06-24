@@ -16,8 +16,8 @@ sections:
   match: "**/*"
   templates:
   - news
-upload_dir: static/uploads
-public_path: static/uploads
+upload_dir: src/content
+public_path: src/content
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
